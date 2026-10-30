@@ -1,0 +1,431 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7477f10c-406d-4f5e-9f5c-b983d2a6c1c6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 304.8 -1.27)
+		(size 257.81 203.2)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05749b40-ffef-49cf-950d-8eef1bbe2004")
+		(property "Sheetname" "User Interface"
+			(at 304.8 -1.9816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user.kicad_sch"
+			(at 304.8 202.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 0 433.07)
+		(size 297.18 200.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16b6e097-2cb8-45bc-9cd9-34df9ecb542e")
+		(property "Sheetname" "JTAG"
+			(at 0 432.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag.kicad_sch"
+			(at 0 634.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 1.27 1262.38)
+		(size 298.45 201.93)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "309612fb-48bf-43c6-91f0-645de1ec4a17")
+		(property "Sheetname" "PIO breakout"
+			(at 1.27 1261.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pio.kicad_sch"
+			(at 1.27 1464.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 0 637.54)
+		(size 297.18 200.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77460186-8901-4be4-bb66-89fcb4610fed")
+		(property "Sheetname" "LCD"
+			(at 0 636.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lcd.kicad_sch"
+			(at 0 838.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 1.27 843.28)
+		(size 297.18 200.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ec86528-2721-45e1-9e59-cc12a55ff13b")
+		(property "Sheetname" "USB"
+			(at 1.27 842.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 1.27 1044.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 214.63)
+		(size 260.35 210.82)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ab179d1-42c5-45b8-aebf-26e576ba1844")
+		(property "Sheetname" "QSPI"
+			(at 304.8 213.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "qspi.kicad_sch"
+			(at 304.8 426.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 844.55)
+		(size 257.81 198.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "908d3c62-bd85-45f0-b944-7380e181345a")
+		(property "Sheetname" "atwilc3000"
+			(at 304.8 843.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "atwilc3000.kicad_sch"
+			(at 304.8 1043.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 1.27 1051.56)
+		(size 297.18 201.93)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9636cd6-42ec-45ba-9fd3-73db0cd3ca7a")
+		(property "Sheetname" "DDR"
+			(at 1.27 1050.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ddr.kicad_sch"
+			(at 1.27 1254.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 0 214.63)
+		(size 297.18 210.82)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d604dfdb-5f4f-4c64-ace0-7ef9219bcd5d")
+		(property "Sheetname" "Power"
+			(at 0 213.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 0 426.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 640.08)
+		(size 257.81 198.12)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eed2124a-bcf1-4bd2-89eb-edaa81756f9f")
+		(property "Sheetname" "NAND"
+			(at 304.8 639.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nand.kicad_sch"
+			(at 304.8 838.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 304.8 431.8)
+		(size 260.35 200.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe95d92d-03c4-46b0-b920-9f5dea95725f")
+		(property "Sheetname" "eMMC"
+			(at 304.8 431.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emmc.kicad_sch"
+			(at 304.8 633.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "9X60D1G"
+				(path "/7477f10c-406d-4f5e-9f5c-b983d2a6c1c6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

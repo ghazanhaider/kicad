@@ -1,0 +1,2556 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0824f2f3-fb64-4730-abc5-70fab5244aa5")
+	(paper "A4")
+	(lib_symbols
+		(symbol "GhazanCustom:ARJM11C7-502-AB-ER2-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ARJM11C7-502-AB-ER2-T"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ARJM11C7502ABER2T"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://abracon.com/Magnetics/ARJM11.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Modular Connectors / Ethernet Connectors RJ45 JACK W/MAG 1000Base-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "13.7"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "815-RJM11C7502ABER2T"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ARJM11C7-502-AB-ER2-T?qs=YCa%2FAAYMW01Li4L1TO4qtw%3D%3D"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ABRACON"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ARJM11C7-502-AB-ER2-T"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ARJM11C7-502-AB-ER2-T_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "TD1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "TD1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "TD2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "TD2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "CT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "CT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "TD3+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "TD3-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "TD4+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "TD4-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "A_GREEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "K_GREEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -10.16 180)
+					(length 5.08)
+					(name "A_YELLOW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -12.7 180)
+					(length 5.08)
+					(name "K_YELLOW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -15.24 180)
+					(length 5.08)
+					(name "MH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -17.78 180)
+					(length 5.08)
+					(name "MH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GhazanCustom:RTL80211FS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -26.67 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "RTL80211FS"
+				(at 39.37 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm"
+				(at 11.43 -39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf"
+				(at 0 -41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10/100/1000Mbps Ethernet Transceiver with RGMII Interface, QFN-48"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ETHERNET PHY RGMII WOL IEEE 802.3 MICROCHIP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*7x7mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RTL80211FS_0_1"
+				(rectangle
+					(start -30.48 38.1)
+					(end 30.48 -38.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RTL80211FS_1_1"
+				(pin power_out line
+					(at -33.02 25.4 0)
+					(length 2.54)
+					(name "LED1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -33.02 22.86 0)
+					(length 2.54)
+					(name "LED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 17.78 0)
+					(length 2.54)
+					(name "RXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -33.02 15.24 0)
+					(length 2.54)
+					(name "TXD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -33.02 12.7 0)
+					(length 2.54)
+					(name "TXCTL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -33.02 10.16 0)
+					(length 2.54)
+					(name "TXC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -33.02 7.62 0)
+					(length 2.54)
+					(name "DVDD10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 5.08 0)
+					(length 2.54)
+					(name "RXD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 0 0)
+					(length 2.54)
+					(name "PTP_CLKIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -33.02 -2.54 0)
+					(length 2.54)
+					(name "REG_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -33.02 -5.08 0)
+					(length 2.54)
+					(name "VDD_REG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -7.62 0)
+					(length 2.54)
+					(name "RXC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -10.16 0)
+					(length 2.54)
+					(name "RXCTL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -33.02 -12.7 0)
+					(length 2.54)
+					(name "LED0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -33.02 -17.78 0)
+					(length 2.54)
+					(name "MDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -33.02 -20.32 0)
+					(length 2.54)
+					(name "TXD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -22.86 0)
+					(length 2.54)
+					(name "HSIP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -33.02 -27.94 0)
+					(length 2.54)
+					(name "HSON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -30.48 0)
+					(length 2.54)
+					(name "RESET_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 40.64 270)
+					(length 2.54)
+					(name "HSOP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 40.64 270)
+					(length 2.54)
+					(name "INTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 40.64 270)
+					(length 2.54)
+					(name "TXD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 40.64 270)
+					(length 2.54)
+					(name "AVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 40.64 270)
+					(length 2.54)
+					(name "AVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 40.64 270)
+					(length 2.54)
+					(name "HSIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 40.64 270)
+					(length 2.54)
+					(name "DVDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -40.64 90)
+					(length 2.54)
+					(name "DVDDRG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 40.64 270)
+					(length 2.54)
+					(name "RXD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -40.64 90)
+					(length 2.54)
+					(name "PAD_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 40.64 270)
+					(length 2.54)
+					(name "RXD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 40.64 270)
+					(length 2.54)
+					(name "TXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 40.64 270)
+					(length 2.54)
+					(name "MDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -40.64 90)
+					(length 2.54)
+					(name "RSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 40.64 270)
+					(length 2.54)
+					(name "AVDD10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 40.64 270)
+					(length 2.54)
+					(name "AVDD10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 40.64 270)
+					(length 2.54)
+					(name "CLKOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 12.7 180)
+					(length 2.54)
+					(hide yes)
+					(name "PHYRSTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 10.16 180)
+					(length 2.54)
+					(hide yes)
+					(name "AVDD10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 33.02 20.32 180)
+					(length 2.54)
+					(name "LDO_O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 5.08 180)
+					(length 2.54)
+					(name "MDIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 2.54 180)
+					(length 2.54)
+					(name "MDIP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -2.54 180)
+					(length 2.54)
+					(name "MDIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -5.08 180)
+					(length 2.54)
+					(name "MDIP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -10.16 180)
+					(length 2.54)
+					(name "MDIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -12.7 180)
+					(length 2.54)
+					(name "MDIP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -17.78 180)
+					(length 2.54)
+					(name "MDIN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -20.32 180)
+					(length 2.54)
+					(name "MDIP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 33.02 -27.94 180)
+					(length 2.54)
+					(name "XTAL_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -30.48 180)
+					(length 2.54)
+					(name "XTAL_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "ETHERNET\n\nTwo SGMII ethernet (LANES 2 and 3 of SERDES1)\nTwo 10gbit XFI ethernet interfaces using SerDes1 are on the serdes page\n\n\nRTL8211FS (RGMII)\n- QFN48\n- RGMII voltages supported: 3.3 2.5 1.8 1.5\n- Internal volt: 1.0v\n- 25MHz xtal/osc input\n- 125MHz output to MAC\n\nRTL8221 ($3 LCSC)\n- 2.5G SGMII\n\nSFP+ cage ($2.5)\n- XGMII\n- Only 3.3v 2-3W supply needed\n- DAC cable can be used with SFP switches"
+		(exclude_from_sim no)
+		(at 210.82 20.32 0)
+		(size 60.96 53.34)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e192b5fe-f87f-4b44-870a-6ee83e8b7203")
+	)
+	(text_box "SFP+\n(U77-A1619-2001 as a basis)\n\n20pins:\n\n	\nRD+ / RD- (receive pair)\nTD+ / TD- (tmit pair)\nVccT / VccR (TX / RX power =3.3v)\nTX_Disable\n\n\nTX_Fault\nSDA SCL-\n\nMOD_ABS (module absent)\nRS0 (Rate select 0)\nRS1 (Rate select 1)\nRx_LOS (Receiver loss of signal indication)\n"
+		(exclude_from_sim no)
+		(at 210.82 78.74 0)
+		(size 60.96 53.34)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "eb05d060-08ac-4aa6-bb75-373444db6f74")
+	)
+	(global_label "EC1__TXD2"
+		(shape input)
+		(at 62.23 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0830c498-d5f7-4da7-8ba0-ac66001e76be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD1__RX2__N"
+		(shape input)
+		(at 189.23 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09378cb5-6d33-4f2f-b0a0-ea8409599259")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__TX__EN"
+		(shape input)
+		(at 22.86 262.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a3dff0f-fb68-4736-ade9-721e3ff30464")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__RX__CLK"
+		(shape input)
+		(at 39.37 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f82e5b1-3096-4b08-8cb1-26c742a84e46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD1__RX3__N"
+		(shape input)
+		(at 36.83 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1002f145-4a6c-4cc0-8949-751405c27c4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__RXD3"
+		(shape input)
+		(at 62.23 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a11c3a1-fb64-4ac9-8b02-ffdd73a4c877")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__TXD0"
+		(shape input)
+		(at 62.23 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2098530d-9b68-4a70-aa24-d2fe85c44a9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__GTX__CLK"
+		(shape input)
+		(at 39.37 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2357b3a1-cc3c-4dad-b49f-8a524316c64e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__RXD3"
+		(shape input)
+		(at 22.86 246.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a74e53d-3eb1-45de-95ab-2cd35c913ecd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__TXD3"
+		(shape input)
+		(at 22.86 240.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3685dad4-3573-4be0-85ea-339f3091970b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD1__TX3__N"
+		(shape input)
+		(at 36.83 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cc8c98c-ed2f-4c69-971d-8bb61d6dd319")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__GTX__CLK125"
+		(shape input)
+		(at 39.37 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5620ce67-4bb9-496f-b4de-ebaef62eb1f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__TXD3"
+		(shape input)
+		(at 63.5 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fc2b136-082c-48ee-8ab1-596392b9e59e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD1__TX3__P"
+		(shape input)
+		(at 36.83 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "614aa195-a943-48b4-ae9d-7b9d71c6e83d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__RXD1"
+		(shape input)
+		(at 22.86 233.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "666a43c1-6c3c-49f3-9bd2-11e291d70afe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__RX__DV"
+		(shape input)
+		(at 39.37 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ed1c936-5111-4de6-9c67-df5bad56bb98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__RXD1"
+		(shape input)
+		(at 62.23 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f71e89a-fd0c-43cc-8fd5-b4b9dbd16da6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__RX__DV"
+		(shape input)
+		(at 22.86 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78bbefcc-cd42-4147-a267-07ab46e42b2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EMI2__MDIO"
+		(shape input)
+		(at 242.57 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f1c7f13-8bd6-4b52-bea0-1786cab39dd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__TX__EN"
+		(shape input)
+		(at 62.23 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8079e950-cbfe-4ff4-bbf0-48c1d059af09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__GTX__CLK125"
+		(shape input)
+		(at 22.86 259.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8498036e-3c5b-4ff3-b068-6ac43edeb3cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__RXD2"
+		(shape input)
+		(at 22.86 243.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a83ba2e-3ddf-447e-9ef0-08be0cf0aa0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EMI1__MDIO"
+		(shape input)
+		(at 59.69 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a17ebf7d-d60c-41ca-8792-ce479524f299")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__RXD0"
+		(shape input)
+		(at 62.23 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab23c948-760e-43b6-ab3e-3543486d3ba9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__TXD0"
+		(shape input)
+		(at 22.86 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ade161c8-1262-4e84-83b2-d088be798f8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__RXD0"
+		(shape input)
+		(at 22.86 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b33b5c63-5cb1-497f-a6c3-fe82a3a9d641")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__GTX__CLK"
+		(shape input)
+		(at 22.86 256.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b789e667-822b-4cad-8416-7b88d2b56bb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD1__RX3__P"
+		(shape input)
+		(at 36.83 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba16a01e-be30-4177-ab4b-845d59886394")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__RX__CLK"
+		(shape input)
+		(at 22.86 248.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c355234f-6fcf-45b6-a76b-ff5082aa00df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EMI1__MDC"
+		(shape input)
+		(at 62.23 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c403a08e-5f40-46f9-96a0-637ba6bfc1fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD1__TX2__N"
+		(shape input)
+		(at 189.23 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc449670-a104-4c6b-b1c9-29c0238aadb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD1__TX2__P"
+		(shape input)
+		(at 189.23 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce8ce5c9-cd8b-4f43-bbe1-8f8208680472")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EMI2__MDC"
+		(shape input)
+		(at 241.3 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d58de41b-b0dc-4451-b271-92285ec4f579")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__TXD1"
+		(shape input)
+		(at 22.86 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d96767e9-a3da-4042-aa4b-331b8081babc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC2__TXD2"
+		(shape input)
+		(at 22.86 237.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e19765a5-537b-487f-a079-0aaab1a061cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD1__RX2__P"
+		(shape input)
+		(at 189.23 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e235dd8c-5175-4c50-a365-5e2510952191")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__TXD1"
+		(shape input)
+		(at 62.23 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9932722-e208-42a6-a534-7e3e071eeeba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1__RXD2"
+		(shape input)
+		(at 62.23 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd147a2e-6d85-494d-987d-38c2aeff0205")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GhazanCustom:RTL80211FS")
+		(at 110.49 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51eac14f-8d7f-4ba1-8452-53f6d40d14ac")
+		(property "Reference" "U1"
+			(at 122.7933 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RTL80211FS"
+			(at 122.7933 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm"
+			(at 121.92 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10/100/1000Mbps Ethernet Transceiver with RGMII Interface, QFN-48"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "34"
+			(uuid "fdf2fd2a-6574-4839-b53b-ffd4cb0d8dd4")
+		)
+		(pin "16"
+			(uuid "485e3ef2-f6b3-44fc-9a5c-bc5a819b259f")
+		)
+		(pin "9"
+			(uuid "74f14a34-0e4a-4fd2-b5e0-c2b5ae291c95")
+		)
+		(pin "48"
+			(uuid "1170e03a-fe7c-4459-9aa1-3a73b5c65ed2")
+		)
+		(pin "14"
+			(uuid "1900f2e7-f72e-46eb-916a-cd7d4a83ebea")
+		)
+		(pin "18"
+			(uuid "85df04c8-3de6-4190-a665-8c08731d1d00")
+		)
+		(pin "23"
+			(uuid "a6be6a0c-773e-4c51-9535-e8d7e71579d9")
+		)
+		(pin "49"
+			(uuid "ab9770df-2eab-4f3b-9888-95967e78cfbc")
+		)
+		(pin "26"
+			(uuid "0eec2025-80ef-4459-9428-59d6d4e35d91")
+		)
+		(pin "29"
+			(uuid "820697f6-7202-4b35-8767-51c766e2536b")
+		)
+		(pin "30"
+			(uuid "b1092795-d989-44c1-a604-3736bb641c53")
+		)
+		(pin "39"
+			(uuid "544def9e-9186-4eda-8e71-ad424aa3ea34")
+		)
+		(pin "1"
+			(uuid "2c869da8-5491-4470-9cb2-b68dcd74cb4b")
+		)
+		(pin "12"
+			(uuid "7eeb7357-3569-41c0-97cf-aff0aaffc321")
+		)
+		(pin "40"
+			(uuid "fef30401-dfc7-494a-b7e6-75a1b99b46eb")
+		)
+		(pin "42"
+			(uuid "758df581-77e8-4134-a0b8-a138df81c6a8")
+		)
+		(pin "41"
+			(uuid "f521388f-c2ac-49ec-b753-970235a9fd05")
+		)
+		(pin "38"
+			(uuid "469763ef-a5fe-4a8b-9b69-043c50d9ad33")
+		)
+		(pin "17"
+			(uuid "8294b8a9-4a45-4a0c-bb9f-d45b08ac034c")
+		)
+		(pin "15"
+			(uuid "c96a8f6e-bc6e-4baf-8506-0c7ff002bbda")
+		)
+		(pin "35"
+			(uuid "c77e654a-a6dc-49a6-ad40-762b2541832d")
+		)
+		(pin "27"
+			(uuid "0b88a602-d4af-43b2-b2f7-e5780e4b847e")
+		)
+		(pin "28"
+			(uuid "6fef8b44-a4bd-43b1-bfc5-fd27fcc07327")
+		)
+		(pin "31"
+			(uuid "7a309242-49c2-4c44-a9ff-327c827d6766")
+		)
+		(pin "32"
+			(uuid "5545b6b3-f938-4966-bc59-4e302f236bfb")
+		)
+		(pin "33"
+			(uuid "dce2761d-b3ce-4761-ac45-bde599df4681")
+		)
+		(pin "24"
+			(uuid "af643350-560b-4a89-9870-e925dcc2e47d")
+		)
+		(pin "22"
+			(uuid "d7f35f4f-eca6-4778-8e8c-3d647b6d4cc0")
+		)
+		(pin "21"
+			(uuid "ac790fba-52f9-465f-89da-5541f0befaa3")
+		)
+		(pin "20"
+			(uuid "184acf4e-fb52-4f4c-9656-f5d0c223d97a")
+		)
+		(pin "19"
+			(uuid "38547fde-c87f-445f-aa1f-2c8ebf10af65")
+		)
+		(pin "25"
+			(uuid "f55f56ce-4655-45e1-b63b-1f6c7dc1cf91")
+		)
+		(pin "37"
+			(uuid "238ac222-a3ac-45cd-98ae-2aa609893d42")
+		)
+		(pin "36"
+			(uuid "e466674f-dc55-4df6-af45-e7b83c21cb8f")
+		)
+		(pin "11"
+			(uuid "d02c5e09-3fb6-4b22-bd32-ecb5febcaa10")
+		)
+		(pin "43"
+			(uuid "50043b22-4cbe-4e65-994b-83f57ea545e7")
+		)
+		(pin "47"
+			(uuid "1754f22d-c87e-48cc-b6fe-c8b9ba6f3a1a")
+		)
+		(pin "13"
+			(uuid "2326ba2d-859a-4a00-b320-7e4f0023c6c1")
+		)
+		(pin "44"
+			(uuid "473dbf5d-ed92-4e3d-ab32-a444d8099cbb")
+		)
+		(pin "4"
+			(uuid "7ab0ae8f-a070-4503-9f3e-a5f413169d57")
+		)
+		(pin "10"
+			(uuid "a9a51673-59e3-4cb0-8f1d-637bcb24436a")
+		)
+		(pin "8"
+			(uuid "dc8d42e9-48b6-4b43-9089-912a62429867")
+		)
+		(pin "6"
+			(uuid "28ad21e4-46d0-45f5-8033-32cfac279e49")
+		)
+		(pin "5"
+			(uuid "bdb56ee7-0da9-4939-845c-0de26e71741d")
+		)
+		(pin "3"
+			(uuid "8ee9e29a-1acc-4cef-b827-8bfe2054b186")
+		)
+		(pin "2"
+			(uuid "86ea4849-a7e6-4055-9c4e-4e732670f89f")
+		)
+		(pin "46"
+			(uuid "d619cfba-580d-493c-bbd4-e681dddd4af2")
+		)
+		(pin "45"
+			(uuid "15aeb157-e01d-40ce-8f32-0ad552263583")
+		)
+		(pin "7"
+			(uuid "124db49f-f871-40f1-ad44-cece823ee1b0")
+		)
+		(instances
+			(project ""
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe/68dfe517-004d-46f3-bcc5-f1d1c92a4118"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GhazanCustom:ARJM11C7-502-AB-ER2-T")
+		(at 154.94 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c074b6f9-cf65-46ea-b516-806e6222398d")
+		(property "Reference" "J5"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ARJM11C7-502-AB-ER2-T"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ARJM11C7502ABER2T"
+			(at 184.15 209.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Magnetics/ARJM11.pdf"
+			(at 184.15 309.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Modular Connectors / Ethernet Connectors RJ45 JACK W/MAG 1000Base-T"
+			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.7"
+			(at 184.15 509.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-RJM11C7502ABER2T"
+			(at 184.15 609.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ARJM11C7-502-AB-ER2-T?qs=YCa%2FAAYMW01Li4L1TO4qtw%3D%3D"
+			(at 184.15 709.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ABRACON"
+			(at 184.15 809.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ARJM11C7-502-AB-ER2-T"
+			(at 184.15 909.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "P2"
+			(uuid "0e035837-b023-4114-ac41-2f1672b842f7")
+		)
+		(pin "P4"
+			(uuid "f950a322-7245-45a4-bd62-084fd482ede7")
+		)
+		(pin "P5"
+			(uuid "29738fed-6ed2-4688-b8c6-7c6b8a09693d")
+		)
+		(pin "P9"
+			(uuid "fa48bfb9-9a64-4851-86fc-df79b0cf0972")
+		)
+		(pin "P6"
+			(uuid "051de48e-13c3-4332-8adc-d93757a4c13d")
+		)
+		(pin "P7"
+			(uuid "98ffea2d-7a65-4e46-986b-1ee7b36dca71")
+		)
+		(pin "P8"
+			(uuid "6e81135e-ce7d-4c5e-b17c-87aff369efd5")
+		)
+		(pin "P10"
+			(uuid "94af8228-6528-4e4e-89b6-ca2ea7e20cfe")
+		)
+		(pin "P12"
+			(uuid "72054a87-36dd-4d74-a133-c046a563d0d3")
+		)
+		(pin "P3"
+			(uuid "ca1cd9ac-38a8-471e-b68f-c7b60f710f99")
+		)
+		(pin "P1"
+			(uuid "bbc1fade-606c-43c0-9629-27fa18ee5153")
+		)
+		(pin "P11"
+			(uuid "f4842ad8-d8fd-401c-8fe1-087e55cb89ea")
+		)
+		(pin "P13"
+			(uuid "fd72fffa-2a84-4fcc-9bc2-7662f67e1cf2")
+		)
+		(pin "P14"
+			(uuid "60bd6b57-be71-4e4d-bf58-5bd93de1f0e2")
+		)
+		(pin "MH3"
+			(uuid "bd1b2ee8-74a5-4df4-9390-856280703b8b")
+		)
+		(pin "MH4"
+			(uuid "985085ce-fdf4-4697-a815-44195f4d2914")
+		)
+		(instances
+			(project ""
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe/68dfe517-004d-46f3-bcc5-f1d1c92a4118"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

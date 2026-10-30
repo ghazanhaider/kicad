@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cca77dad-78fc-4ed8-8c1b-bbbe59c1f556")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 20.32 17.78)
+		(size 33.02 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d321f5e-367b-4e3a-8d94-3133fb565ffd")
+		(property "Sheetname" "MCU"
+			(at 20.32 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 20.32 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32G0B0CET_2lyr"
+				(path "/cca77dad-78fc-4ed8-8c1b-bbbe59c1f556"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 17.78)
+		(size 35.56 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eebebad0-f4c7-4147-91a9-1b9b69189a28")
+		(property "Sheetname" "Headers"
+			(at 58.42 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "headers.kicad_sch"
+			(at 58.42 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32G0B0CET_2lyr"
+				(path "/cca77dad-78fc-4ed8-8c1b-bbbe59c1f556"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

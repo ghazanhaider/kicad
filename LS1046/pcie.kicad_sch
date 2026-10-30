@@ -1,0 +1,268 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "300673a2-957a-4ca8-bb0b-abfdb262c786")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "PCIE\n\nSERDES2:\nPCIe.1 x1\nPCIe.2 x1\nPCIe.3 x1\n\nmPCIE:\n- 2x26 connector\n- Requires: 1.5v, 3.3v, I2C1\n- USB3 port pair\n- CLK reference\n\nPCIE:\n- 36 pin connector\n- REquires: 12v, 3.3v, I2C4 (and I2C1 in RDB)"
+		(exclude_from_sim no)
+		(at 198.12 15.24 0)
+		(size 83.82 43.18)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "40e8a590-4ffe-4835-89a5-e9e6ee0051c6")
+	)
+	(global_label "SD2__TX0__N"
+		(shape input)
+		(at 62.23 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ac060ab-04a5-4049-876a-91726d35a57d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__RX1__P"
+		(shape input)
+		(at 44.45 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e636a07-668c-42f9-8167-7768b31e027f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__TX2__P"
+		(shape input)
+		(at 44.45 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e68b387-243f-49c8-a1d5-7b754aea8a52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__RX2__P"
+		(shape input)
+		(at 44.45 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b657724-57f0-490b-af31-47aaf74817f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__RX2__N"
+		(shape input)
+		(at 62.23 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d0eedf7-f92d-48fe-8186-9a60e8730b5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__RX0__N"
+		(shape input)
+		(at 62.23 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d2d70f4-83a3-4492-b8f0-b95d806e478c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__RX1__N"
+		(shape input)
+		(at 62.23 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98053598-bade-47ad-a863-d77c58c96402")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__RX0__P"
+		(shape input)
+		(at 44.45 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9da9f94d-9942-4389-b1ab-635d249da76c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__TX0__P"
+		(shape input)
+		(at 44.45 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2050b31-b5ba-49ee-be5e-82fe140f0b32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__TX2__N"
+		(shape input)
+		(at 62.23 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebb1390b-3e83-41e9-967f-9f4c38b516b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__TX1__P"
+		(shape input)
+		(at 44.45 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f95ee856-03de-4875-8ad9-67c111e3fb66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2__TX1__N"
+		(shape input)
+		(at 62.23 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc355f49-938e-4761-bebd-56dffba9349f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+)

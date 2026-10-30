@@ -1,0 +1,588 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9c5d1b7b-f693-44d6-90b0-ecc8be193186")
+	(paper "A4")
+	(lib_symbols)
+	(global_label "USB__DRVVBUS"
+		(shape input)
+		(at 64.77 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a2dbda7-5d85-48fc-a542-6b5efc10a993")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB__PWRFAULT"
+		(shape input)
+		(at 64.77 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b5d805b-e963-4480-b985-c8d292273e08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3__RESREF"
+		(shape input)
+		(at 97.79 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ef6495d-4136-43e6-9110-d2a9ca63f9e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1__D__P"
+		(shape input)
+		(at 33.02 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a8226cf-f23a-4a1a-82f0-19e1228001d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB2__D__M"
+		(shape input)
+		(at 64.77 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22ea4a10-5f96-49b5-98b8-0c5d0fa91341")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1__RESREF"
+		(shape input)
+		(at 33.02 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23423be9-91b2-40be-b69c-74b8ee18479a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1__RX__P"
+		(shape input)
+		(at 33.02 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c184ddc-950c-4ff6-b0fc-91dbeb0056c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1__TX__P"
+		(shape input)
+		(at 33.02 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f89501e-df46-4383-9276-9bfeb655ee0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3__TX__M"
+		(shape input)
+		(at 97.79 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d26c1c1-2fa1-46b5-83f2-eadefdb78fd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3__VBUS"
+		(shape input)
+		(at 97.79 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dae0fff-a3bb-4881-96cc-71469e16798a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3__RX__M"
+		(shape input)
+		(at 97.79 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "638b921e-4cf0-4be5-b393-510c35f2f5fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB2__RX__M"
+		(shape input)
+		(at 64.77 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67275068-940b-48b9-8f27-bf2861573016")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1__VBUS"
+		(shape input)
+		(at 33.02 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "702b613c-8b73-4376-8e46-ae6c6ce51163")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3__TX__P"
+		(shape input)
+		(at 97.79 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d6ad7dc-4db2-4964-87f0-c90d0f4aa40f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB2__TX__M"
+		(shape input)
+		(at 64.77 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80245862-de0c-47c3-845e-c64239136259")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB2__D__P"
+		(shape input)
+		(at 64.77 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80c71299-1b71-49e9-b0d7-eb10f68fade0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB2__RESREF"
+		(shape input)
+		(at 64.77 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "903bf0a7-770e-40ec-805c-2df779259d33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3__D__P"
+		(shape input)
+		(at 97.79 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "944a0a82-5ed1-4ec4-a149-156d2848cad8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1__D__M"
+		(shape input)
+		(at 33.02 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ef3ba1d-0a56-47cf-aacf-795eed11744e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3__ID"
+		(shape input)
+		(at 97.79 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a40f989e-f25c-4287-a7ea-138eefda0467")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1__TX__M"
+		(shape input)
+		(at 33.02 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b66aa736-b547-416e-8267-611bcb52c188")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB2__RX__P"
+		(shape input)
+		(at 64.77 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b892a005-ef65-48f4-ad2a-bb53075f3090")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB2__ID"
+		(shape input)
+		(at 64.77 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4d804c2-e8bb-4e39-a9d6-83a153d70aa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1__ID"
+		(shape input)
+		(at 33.02 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c60e5563-135d-4662-81d3-1bc05648aaf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3__RX__P"
+		(shape input)
+		(at 97.79 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7f78d54-5aaa-45f2-a0e5-f8062749e37f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB2__VBUS"
+		(shape input)
+		(at 64.77 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d98235ca-b4b2-489e-961d-19d9aa52c4e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3__D__M"
+		(shape input)
+		(at 97.79 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea6e6271-8423-430a-b7d0-02b908eedb24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB2__TX__P"
+		(shape input)
+		(at 64.77 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed9efa12-810b-4545-80fc-9e1e0264b866")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB1__RX__M"
+		(shape input)
+		(at 33.02 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5059691-8dc3-42ab-9893-c9def4f8b2c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+)

@@ -1,0 +1,580 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "BOOT\n\nLS1046 has a Pre Boot Loader that loads config from a QSPI flash before configuring the device and allowing ARM cores to boo\n"
+		(exclude_from_sim no)
+		(at 223.52 45.72 0)
+		(size 58.42 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "53f6e97c-5fec-4668-977c-83c71ddafd29")
+	)
+	(text_box "An open-ended board for the LS1046\nSO-DIMM260\n\nSo we'll give it a PMIC, eMMC, SD, and basic peripherals and the fun stuff:\n- 64-bit DDR4\n- PCIe/M2 ports\n- GBE ports\n- USB3 ports"
+		(exclude_from_sim no)
+		(at 223.52 12.7 0)
+		(size 58.42 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c5117bcf-246f-4324-a36c-488cb13f775d")
+	)
+	(text_box "PCB\n\n"
+		(exclude_from_sim no)
+		(at 223.52 76.2 0)
+		(size 58.42 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cbcae519-bc15-446e-abf3-f7758e976a7f")
+	)
+	(sheet
+		(at 127 25.4)
+		(size 35.56 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "15ede4a5-92a7-43c3-befe-85e5e74f6093")
+		(property "Sheetname" "SerDes"
+			(at 127 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serdes.kicad_sch"
+			(at 127 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 96.52)
+		(size 35.56 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3029bc9a-90f1-4ab0-b6d5-5bacf180e4f4")
+		(property "Sheetname" "SATA"
+			(at 127 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sata.kicad_sch"
+			(at 127 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 60.96)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5a8b85f1-55f5-47e3-8e4c-8bf720ed8e31")
+		(property "Sheetname" "DDR4"
+			(at 81.28 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ddr4.kicad_sch"
+			(at 81.28 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 157.48)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "68dfe517-004d-46f3-bcc5-f1d1c92a4118")
+		(property "Sheetname" "Ethernet"
+			(at 20.32 156.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 20.32 180.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 60.96)
+		(size 35.56 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8f47164f-50cd-429f-bcec-ff0e8b95bad8")
+		(property "Sheetname" "PCIe"
+			(at 127 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcie.kicad_sch"
+			(at 127 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 129.54)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "939a7094-942f-497e-95ba-d1cf1c5bf6ed")
+		(property "Sheetname" "Flash"
+			(at 81.28 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flash.kicad_sch"
+			(at 81.28 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 160.02)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9a1f7964-2da6-415c-bee6-c2ddd157a586")
+		(property "Sheetname" "SDHC"
+			(at 81.28 159.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sdhc.kicad_sch"
+			(at 81.28 183.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 127)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a45821ef-1668-42f1-8d4c-d38cd478458b")
+		(property "Sheetname" "Serial"
+			(at 20.32 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serial.kicad_sch"
+			(at 20.32 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 24.13)
+		(size 35.56 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a8b3a281-bb31-4e8d-9aa2-f009706ee8c1")
+		(property "Sheetname" "Power"
+			(at 82.55 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 82.55 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 25.4)
+		(size 45.72 88.9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c7745443-6322-46d8-b739-2a39ad4fd087")
+		(property "Sheetname" "SOC"
+			(at 20.32 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "soc.kicad_sch"
+			(at 20.32 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 96.52)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e616906e-71c1-4eb4-9d42-235fe7593a7c")
+		(property "Sheetname" "USB"
+			(at 81.28 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 81.28 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LS1046"
+				(path "/8fa1eddd-a3e5-476d-bf09-1a06f3e2fbbe"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
